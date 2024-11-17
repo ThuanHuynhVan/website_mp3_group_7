@@ -1,0 +1,182 @@
+/* Thiết lập font và margin, padding mặc định cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url(./img/background-theme/backroundThemes/0.svg);
+}
+
+/* Căn giữa các phần nội dung */
+.boxcenter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Thiết lập font và margin cho phần header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Kích thước hình ảnh logo */
+.header img {
+    max-width: 100px;
+}
+
+/* Thiết lập giao diện cho menu */
+.menu {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Thiết lập giao diện cho các mục trong menu */
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Tạo hiệu ứng hover cho các mục trong menu */
+.nav-link:hover {
+    background-color: #555;
+}
+
+/* Thiết lập giao diện cho nội dung chính */
+.content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Thiết lập giao diện cho bảng danh sách bài hát */
+.music-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.music-list th, .music-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.music-list th {
+    background-color: #333;
+    color: #fff;
+}
+
+.music-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Tạo hiệu ứng hover cho dòng trong bảng */
+.music-list tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Thiết lập giao diện cho các nút thêm, xóa, sửa */
+.music-list button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Tạo hiệu ứng hover cho các nút */
+.music-list button:hover {
+    background-color: #45a049;
+}
+
+/* Thiết lập giao diện cho danh sách tài khoản */
+.account-list ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.account-list ul li {
+    margin-bottom: 10px;
+}
+
+.account-list ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.account-list ul li a:hover {
+    background-color: #ddd;
+}
+
+.account-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.account-list th, .account-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.account-list th {
+    background-color: #f2f2f2;
+}
+
+.account-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.account-list tr:hover {
+    background-color: #ddd;
+}
+
+.account-list button {
+    margin-right: 5px;
+}
+/* CSS cho nút */
+.account-list button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+}
+
+.account-list button:hover {
+    background-color: #45a049;
+}
+
+.account-list button.delete {
+    background-color: #f44336;
+}
+
+.account-list button.edit {
+    background-color: #008CBA;
+}

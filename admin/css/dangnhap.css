@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: normal;
+    background-image: url(/assets/img/background-theme/backroundThemes/0.svg);
+    background-image: url(/zingmp3.vn-main/assets/img/background-theme/backroundThemes/0.svg);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    color: #000;
+}
+.login{
+    margin-top: 5%;
+    background-image: url('/assets/img/background-theme/backroundThemes/0.svg');
+    padding: 10%;
+    border-radius: 8px;
+}
+.login_container{
+    border-radius: 8px;
+    box-sizing: border-box;
+    
+}
+.login_container img{
+    width: 100%;
+    text-align:center;
+}
+.login_container h5{
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+.social-container{
+    margin-top: 20px;
+    padding: 10px;
+}
+.login input{
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    
+}
+.login button{
+    margin-top: 30px;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+    background-color: #2E8B57;
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    transition-duration: 0.4s;
+    border: none;
+    cursor: pointer;
+}
+button :hover{
+    background-color: #45a049; 
+}
+.form-group{
+    margin-bottom: 10px;
+}
